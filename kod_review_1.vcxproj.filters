@@ -32,16 +32,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\01\Task01.cpp">
-      <Filter>Исходные файлы\01</Filter>
-    </ClCompile>
-    <ClCompile Include="..\01\Source.cpp">
-      <Filter>Исходные файлы\01</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\01\Header.h">
+    <ClInclude Include="01\Header.h">
       <Filter>Исходные файлы\01</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01\Source.cpp">
+      <Filter>Исходные файлы\01</Filter>
+    </ClCompile>
+    <ClCompile Include="01\Task01.cpp">
+      <Filter>Исходные файлы\01</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

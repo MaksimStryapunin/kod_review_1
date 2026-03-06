@@ -142,11 +142,11 @@
     <None Include="..\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\01\Source.cpp" />
-    <ClCompile Include="..\01\Task01.cpp" />
+    <ClInclude Include="01\Header.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\01\Header.h" />
+    <ClCompile Include="01\Source.cpp" />
+    <ClCompile Include="01\Task01.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
