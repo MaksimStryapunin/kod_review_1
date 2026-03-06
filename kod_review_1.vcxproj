@@ -146,6 +146,7 @@
     <ClCompile Include="..\Task02.cpp" />
     <ClCompile Include="..\Task03.cpp" />
     <ClCompile Include="..\Task04.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />

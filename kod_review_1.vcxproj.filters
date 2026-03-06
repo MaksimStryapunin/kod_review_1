@@ -44,6 +44,9 @@
     <ClCompile Include="..\Task04.cpp">
       <Filter>Исходные файлы\04</Filter>
     </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы\01</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
