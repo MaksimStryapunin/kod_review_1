@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\01">
+      <UniqueIdentifier>{18a4ead0-a98a-405c-b911-649b418cb180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\02">
+      <UniqueIdentifier>{cbb9aa2b-4911-4006-b0f3-15893d49df12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\03">
+      <UniqueIdentifier>{93aea57c-983d-4aa3-9a3b-58efe93757e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\04">
+      <UniqueIdentifier>{2b9784c8-ac0b-464d-9ad9-df5f36d403e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Filter>Исходные файлы</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Task01.cpp">
+      <Filter>Исходные файлы\01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Task02.cpp">
+      <Filter>Исходные файлы\02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Task03.cpp">
+      <Filter>Исходные файлы\03</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Task04.cpp">
+      <Filter>Исходные файлы\04</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Исходные файлы\01</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
